@@ -1,6 +1,6 @@
 import React from 'react';
 import Calendar from './Calendar';
-import weeding from '../src/assets/wedding.jpg'
+import heroImg from './assets/wedding.jpg'; // استيراد الصورة
 
 export default function MainInvitationCard() {
   return (
@@ -26,7 +26,7 @@ export default function MainInvitationCard() {
       {/* صورة للعروسين */}
       <div className="my-6 relative rounded-t-full overflow-hidden border-2 border-[#d0c8b8] shadow-inner">
         <img
-          src="../src/assets/wedding.jpg"
+          src={heroImg}
           alt="Olivia and Daniel"
           className="w-full h-80 object-cover"
         />
